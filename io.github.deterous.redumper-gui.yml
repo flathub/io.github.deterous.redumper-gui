@@ -63,6 +63,8 @@ modules:
         tag: v1.1.1
         commit: 65028e722f56d0743a68ba8782b6e8ed0bcaef4f
       - cargo-sources.json
+      - type: patch
+        path: patches/linux-drive-model-labels.patch
       - type: file
         path: io.github.deterous.redumper-gui.desktop
       - type: file
